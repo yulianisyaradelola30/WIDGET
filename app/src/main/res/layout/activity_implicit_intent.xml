@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".ImplicitIntent"
+    android:background="@color/top_form">
+
+
+
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPEN CAMERA"
+        android:backgroundTint="@color/top_bt"
+        android:fontFamily="sans-serif-black"
+        />
+    <Button
+        android:id="@+id/btnFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPEN FILE"
+        android:backgroundTint="@color/top_bt"
+        android:fontFamily="sans-serif-black"
+        />
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPEN BROWSER"
+        android:backgroundTint="@color/top_bt"
+        android:fontFamily="sans-serif-black"
+        />
+
+</LinearLayout>
